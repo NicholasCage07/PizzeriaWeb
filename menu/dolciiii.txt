@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu dei Dolci</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: black;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: pink;
+            padding: 25px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: white;
+        }
+        .menu {
+            padding: 16px;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .menu h2 {
+            text-align: center;
+            color: #ff66b2;
+        }
+        .item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .item:last-child {
+            border-bottom: none;
+        }
+        .item span {
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Menu Dolci</h1>
+</header>
+
+<div class="menu">
+
+    <div class="item">
+        <span>1. Tiramisù</span>
+        <span>€4.50</span>
+    </div>
+    
+    <div class="item">
+        <span>2. Crostata di Frutta</span>
+        <span>€3.80</span>
+    </div>
+    
+    <div class="item">
+        <span>3. Cheesecake ai frutti di bosco</span>
+        <span>€5.00</span>
+    </div>
+    
+    <div class="item">
+        <span>4. Waffle con nutella</span>
+        <span>€2.00</span>
+    </div>
+    
+    <div class="item">
+        <span>5. Panna Cotta</span>
+        <span>€3.50</span>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Menu dei Dolci</p>
+</footer>
+
+</body>
+</html>
+
